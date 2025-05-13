@@ -193,10 +193,6 @@ To add new components:
 3. Export the component from the index.js file in the components directory
 4. Use the component in your application
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Author
 
-Your Name - [Your GitHub](https://github.com/yourusername)
+Your Name - [nikita-647](https://github.com/nikita-647)
