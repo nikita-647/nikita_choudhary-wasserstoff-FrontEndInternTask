@@ -15,8 +15,7 @@ A reusable component library for building conference ticket generation interface
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/yourusername/conference-ticket-generator.git
-cd conference-ticket-generator
+git clone https://github.com/nikita-647/nikita_choudhary-wasserstoff-FrontEndInternTask.git
 ```
 
 2. Install dependencies:
