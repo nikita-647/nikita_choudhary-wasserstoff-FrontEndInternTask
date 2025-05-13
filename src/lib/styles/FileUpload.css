@@ -1,0 +1,69 @@
+/* FileUpload Component Styles */
+.upload-container {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-xs);
+  width: 100%;
+  margin-bottom: var(--spacing-md);
+}
+
+.upload-input-field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-sm) 0;
+  width: 100%;
+  min-height: 100px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px dashed var(--neutral-300);
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: all var(--transition-speed);
+}
+
+.upload-input-field:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}
+
+.upload-input-field.dragging {
+  border-color: var(--neutral-0);
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.upload-instruction-text {
+  text-align: center;
+  font-size: var(--font-size-sm);
+  margin-top: var(--spacing-xs);
+}
+
+.file-input {
+  display: none;
+}
+
+.image-size-instruction-div {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+  margin-top: 2px;
+}
+
+.image-size-text {
+  font-size: var(--font-size-xs);
+  color: var(--neutral-300);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 475px) {
+  .upload-input-field {
+    padding: var(--spacing-md) 0;
+  }
+  
+  .upload-instruction-text {
+    font-size: var(--font-size-md);
+  }
+  
+  .image-size-text {
+    font-size: var(--font-size-sm);
+  }
+}

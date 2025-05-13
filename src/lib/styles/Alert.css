@@ -1,0 +1,29 @@
+/* Alert Component Styles */
+.alert-text {
+  font-size: var(--font-size-xs);
+  margin-top: 2px;
+}
+
+/* Alert Types */
+.alert-error {
+  color: var(--orange-500);
+}
+
+.alert-warning {
+  color: #f0ad4e;
+}
+
+.alert-info {
+  color: #5bc0de;
+}
+
+.alert-success {
+  color: #5cb85c;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 475px) {
+  .alert-text {
+    font-size: var(--font-size-sm);
+  }
+}

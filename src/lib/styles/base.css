@@ -1,0 +1,88 @@
+/* Base Styles */
+@font-face {
+  font-family: 'Inconsolata';
+  src: url('/resources/fonts/Inconsolata-VariableFont_wdth\,wght.ttf');
+  font-display: swap;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--neutral-0);
+  font-family: var(--font-family-main);
+  font-size: var(--font-size-md);
+  background-image: url('/resources/images/background-desktop.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+/* Utility Classes */
+.text-center {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.hidden {
+  display: none;
+}
+
+.attribution {
+  font-size: var(--font-size-xs);
+  text-align: center;
+  margin: var(--spacing-md) 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    background-image: url('/resources/images/background-mobile.png');
+  }
+}
+
+@media (max-width: 475px) {
+  body {
+    padding: var(--spacing-md);
+  }
+}
