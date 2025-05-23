@@ -38,17 +38,6 @@
 }
 
 /* Responsive Adjustments */
-@media (max-width: 768px) {
-  .input-label {
-    font-size: var(--font-size-lg);
-  }
-
-  .text-input {
-    font-size: var(--font-size-md);
-    padding: var(--spacing-md) var(--spacing-md);
-  }
-}
-
 @media (max-width: 475px) {
   .input-label {
     font-size: var(--font-size-lg);
@@ -56,6 +45,5 @@
   
   .text-input {
     padding: var(--spacing-md) var(--spacing-md);
-    font-size: var(--font-size-md);
   }
 }
