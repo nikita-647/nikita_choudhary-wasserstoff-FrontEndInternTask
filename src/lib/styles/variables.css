@@ -1,5 +1,4 @@
-
- :root {
+:root {
   /* Color Variables */
   --neutral-0: hsl(0, 0%, 100%);
   --neutral-300: hsl(252, 6%, 83%);
@@ -21,7 +20,7 @@
   /* Spacing */
   --spacing-xs: 5px;
   --spacing-sm: 10px;
-  --spacing-md: 10px;
+  --spacing-md: 15px; /* increased for better mobile padding */
   --spacing-lg: 20px;
   --spacing-xl: 30px;
 
@@ -31,31 +30,7 @@
 
   /* Transitions */
   --transition-speed: 0.4s;
-
+  
   /* Effects */
   --box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-/* Responsive Overrides for Mobile */
-@media (max-width: 475px) {
-  :root {
-    /* Slightly smaller font sizes for mobile */
-    --font-size-xs: 9px;
-    --font-size-sm: 11px;
-    --font-size-md: 14px;
-    --font-size-lg: 16px;
-    --font-size-xl: 22px;
-    --font-size-xxl: 28px;
-
-    /* Adjust spacing for tighter mobile layouts */
-    --spacing-xs: 4px;
-    --spacing-sm: 8px;
-    --spacing-md: 8px;
-    --spacing-lg: 16px;
-    --spacing-xl: 24px;
-
-    /* Slightly smaller border radius */
-    --border-radius-sm: 4px;
-    --border-radius-md: 8px;
-  }
 }
